@@ -1,0 +1,11 @@
+a,b=map(int,input().split())
+i=1
+j=1
+while(1):
+    if(a*i==b*j):
+        print(a*i)
+        break
+    elif(a*i>b*j):
+        j+=1
+    else:
+        i+=1
