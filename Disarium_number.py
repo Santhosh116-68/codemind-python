@@ -1,0 +1,15 @@
+a=input()
+n=len(a)
+h=int(a)
+s=h
+i=0
+m=0
+while(h):
+    p=h%10
+    m=m+p**(n-i)
+    i+=1
+    h//=10
+if(s==m):
+    print("True")
+else:
+    print("False")
