@@ -1,0 +1,15 @@
+n=int(input())
+c=1
+b=0
+while(1):
+    a=b
+    b=c
+    c=a+b
+    if(c==n):
+        print("True")
+        break
+    elif(c>n):
+        print("False")
+        break
+    else:
+        continue
